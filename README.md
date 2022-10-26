@@ -5,4 +5,4 @@ ECE Ntua OsLab
 Operating System Labs, Ροή Υ
 2022-2023
 
-Περιέχονται 3 φάκελοι κάθε ένας για κάθε σειρά ασκήσεων.
+There will be 3 folders, one for each semester assignment.
