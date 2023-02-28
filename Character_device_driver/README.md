@@ -10,3 +10,8 @@ The goal is to format the raw data into human readable from and present each mea
 3. Create the USB TTYs at which the base station will be connexted as well as the measurements devices: `bash mk-lunix-devs.sh`
 4. Attach the driver to the input TTY. (on one of the 4 `ttyS_`s): `./lunix-attach /dev/$TTY`
 5. Verify that measurements are being received by using `cat` on the first lunix device: `cat /dev/lunix0-temp`
+
+
+### userspace_test.c 
+
+Just a simple user space C program to verify the correctness of the driver (simple fork and read from the same files).
